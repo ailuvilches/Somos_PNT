@@ -12,7 +12,7 @@ public class Bebida extends Producto{
     public String toString() {
 
         return "Nombre: " + this.nombre +
-                " /// Litros:" + this.litros +
+                " /// Litros: " + this.litros +
                 " /// Precio: $" + Math.round(this.precio);
 
     }

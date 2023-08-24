@@ -39,7 +39,7 @@ public class Supermercado {
             toString += producto + "\n";
         }
 
-        toString += "========================\n";
+        toString += "=============================\n";
 
         toString += "Producto más caro: " + obtenerProductoDeMayorValor().getNombre() + "\nProducto más barato: " + obtenerProductoDeMenorValor().getNombre();
 
